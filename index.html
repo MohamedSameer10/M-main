@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">  <!--UTF - unicode transformation format - it displays all the language characters-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern login page - 2023</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="signin">
+
+            <div class="sign-content">
+                <header><h1>sign in</h1></header>
+
+            <div class="icons">
+                <i class="fa-brands fa-google-plus-g" id="google"></i>
+                <i class="fa-brands fa-facebook-f" id="fb"></i>
+                <i class="fa-brands fa-github" id="gb"></i>
+                <i class="fa-brands fa-linkedin-in" id="in"></i>
+            </div>
+
+            <div class="content">
+                <p>or use your email password</p>
+            </div>
+
+            
+                <input type="text" name="email" id="email" placeholder="Email" enabled>
+                <input type="password" name="password" id="password" placeholder="Password" enabled>
+
+                <a href="#">Forget Your Password ? </a>
+
+                <button id="sign" type="submit" class="signinbtn">Sign in</button>
+
+
+            </div>
+
+            <div class="hello-content">
+                <div class="helcontent">
+                    <header><h1>Hello, Freind !</h1></header>
+    
+                    <p>Register with your personal details to use all of sites features</p>
+        
+                    <button type="submit" id="newsignup" class="signup">sign up</button>
+
+                </div>
+               
+            </div>
+        </div>
+
+           <div class="create-content">
+                <header><h1>create account</h1></header>
+    
+                <div class="icons">
+                    <i class="fa-brands fa-google-plus-g" id="google"></i>
+                    <i class="fa-brands fa-facebook-f" id="fb"></i>
+                    <i class="fa-brands fa-github" id="gb"></i>
+                    <i class="fa-brands fa-linkedin-in" id="in"></i>
+                </div>
+    
+                <div class="content">
+                    <p>or use your email for registeration</p>
+                </div>
+    
+                    <input type="text" name="name" id="name" placeholder="Name">
+                    <input type="text" name="email" id="newemail" placeholder="Email">
+                    <input type="password" name="password" id="newpassword" placeholder="Password">
+    
+    
+                    <button id="sign" type="submit" class="signup">Sign up</button>
+           </div>
+
+            <div class="welcome-content">
+               <div class="welcontent">
+                <header><h1>Welcome Back !</h1></header>
+    
+                <p>Enter your personal details to use all of sites features</p>
+    
+                <button type="submit" id="newsignin" class="signin">sign in</button>
+               </div>
+            </div>
+    
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
